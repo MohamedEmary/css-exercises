@@ -1,0 +1,40 @@
+/* 	All the four solutions below are valid
+	and have the same results */
+
+/* 	Solution 1: using type selectors */
+/* div p{
+	background-color: yellow;
+	color: red;
+	font-size: 20px;
+	text-align: center;
+} */
+
+
+/*  Solution 2: using class selectors */
+/* .container .text{
+	background-color: yellow;
+	color: red;
+	font-size: 20px;
+	text-align: center;
+} */
+
+
+
+/*  Solution 3: combining a type and class 
+	selector for the descendant combinator */
+/* .container p{
+	background-color: yellow;
+	color: red;
+	font-size: 20px;
+	text-align: center;
+} */
+
+
+/*  Solution 4: combining a type and class 
+	selector for the descendant combinator */
+div .text{
+	background-color: yellow;
+	color: red;
+	font-size: 20px;
+	text-align: center;
+}
