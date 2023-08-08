@@ -3,15 +3,28 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
-  margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  margin: 0px;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 0 8px;
+  height: 70px;
+  /* display: flex; */
+}
+
+.header, .links, .right, .left{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.right{
+  margin-left: auto;
 }
 
 .profile-image {
@@ -44,5 +57,6 @@ a {
 }
 
 ul {
+  padding-left: 8px;
   list-style-type: none;
 }
